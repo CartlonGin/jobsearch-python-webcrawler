@@ -1,4 +1,4 @@
-# Web_Crawler_Selenium_jobsearch_project
+# WebCrawler/Selenium_jobsearch_project
 
 ### Object: Automatically scrape all the job titles and links in different categories, and organize into an excel file.
 ##### Tech: Python/Selenium/Openpyxl
