@@ -1,9 +1,9 @@
 # WebCrawler/Selenium_jobsearch_project
 
-#### Object: Automatically scrape all the job titles and links in different categories, and organize into an excel file.
+##### Object: Automatically scrape all the job titles and links by different categories, and organize into an excel file.
 ##### Tech: Python/Selenium/Openpyxl
 ##### Web: https://www.adecco.com.tw/advancedsearch.aspx?search=1
-##### Note: There are many categories in the job list, so the point is to be able to scrape jobs by each different category.
+
    * First, scrape all the pages in the same category. Using ```def``` function to automatically turn to next page. When checking DevTools of the website, you can find the difference of code: ```ctl00_ContentPlaceHolder1_ucSearchResults1_rptPaging_ctl```. Create the next_page function to turn to the next page in the same category.
    ```js
    def next_page(driver, page_num):
