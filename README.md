@@ -4,6 +4,20 @@
 ##### Tech: Python/Selenium/Openpyxl
 ##### Web: https://www.adecco.com.tw/advancedsearch.aspx?search=1
 
+   * Based on the web browser you used, apply the corresponding driver to control the behavior of the web browser. 
+   ```js
+   from selenium import webdriver
+   from selenium.webdriver.chrome.service import Service
+   from webdriver_manager.chrome import ChromeDriverManager
+   from selenium.webdriver.support.ui import WebDriverWait
+   from selenium.webdriver.support import expected_conditions as EC
+   from selenium.webdriver.common.by import By
+   
+   s = Service(ChromeDriverManager().install())
+   driver = webdriver.Chrome(service=s)
+   driver.get("https://www.adecco.com.tw/advancedsearch.aspx?search=1")
+   ```
+   
    * First, scrape all the pages in the same category. Using ```def``` function to automatically turn to next page. When checking DevTools of the website, you can find the difference of code: ```ctl00_ContentPlaceHolder1_ucSearchResults1_rptPaging_ctl```. Create the next_page function to turn to the next page in the same category.
    ```js
    def next_page(driver, page_num):
