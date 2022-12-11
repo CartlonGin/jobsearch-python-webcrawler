@@ -1,6 +1,6 @@
-# WebCrawler/Selenium_jobsearch_project
+# WebScraper/Selenium_jobsearch_project
 
-#### 
+Imagine that you are searching for all the job opportunities. However, there are more than 20 categories of jobs and so many web pages that you have to spend a lot of time on browsing all the opportunities. It can be more efficient by scraping all the information with sort and format. In this case, there are lots of pages and buttons should be controlled, that is the reason why I would apply Selenium to scrape the web. Let's get started!
 
 ##### Object: Automatically scrape all the job titles and links by different categories, and organize into an excel file.
 ##### Tech: Python/Selenium/Openpyxl
