@@ -2,9 +2,12 @@
 
 Imagine that you are searching for all the job opportunities. However, there are more than 20 categories of jobs and so many web pages that you have to spend a lot of time on browsing all the opportunities. It can be more efficient by scraping all the information with sort and format. In this case, there are lots of pages and buttons should be controlled, that is the reason why I would apply Selenium to scrape the web. Let's get started!
 
-##### Object: Automatically scrape all the job titles and links by different categories, and organize into an excel file.
-##### Tech: Python/Selenium/Openpyxl
-##### Web: https://www.adecco.com.tw/advancedsearch.aspx?search=1
+#### What is the purpose?
+Automatically scrape all the job titles and links by different categories, and organize into an excel file.
+#### Tech I use:
+Python/Selenium/Openpyxl
+#### Web:
+https://www.adecco.com.tw/advancedsearch.aspx?search=1
 
    * Based on the web browser you used, apply the corresponding driver to control the behavior of the web browser. 
    ```js
